@@ -4,6 +4,12 @@
   flex-direction: column;
   justify-items: center;
 }
+.flexbox-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -173,7 +179,7 @@ nav ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 nav ul li {
   font-size: 1.5em;
@@ -210,6 +216,10 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
+.home .intro img {
+  border-radius: 20px;
+  height: 100%;
+}
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
@@ -218,7 +228,7 @@ footer {
 .home .space-images img {
   width: 28%;
   margin: 20px 2.5%;
-  border-radius: 20px;
+  border-radius: 15px;
   height: 100%;
 }
 .home .visit-planets {
