@@ -53,14 +53,13 @@ Which means, any child element/class/id will have a different base font size, an
 
 4. How would you describe preprocessing to someone new to CSS?
 
-* Preprocessing is another user-friendly way of organizing your Style Sheets for your HTML browser / elements.
-
-I think of it as a notepad to sketch your ideas in a clear, organized fashion, which then is sent to a compiler - which acts like a translator to translate your 
+*Preprocessing is another user-friendly way of organizing your Style Sheets for your HTML browser / elements.*
+*I think of it as a notepad to sketch your ideas in a clear, organized fashion, which then is sent to a compiler - which acts like a translator to translate your 
 ideas using the Less.JS language - to return a official CSS.file that will render each specific HTML browsesr element/class/id correctly. *  
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-* I like how Preprocessing is a very modular means of designing user interfaces - it's very clean, and easy to debug / isolate problems. 
+*I like how Preprocessing is a very modular means of designing user interfaces - it's very clean, and easy to debug / isolate problems. 
 The syntax does take some time to get used to, compared to regular CSS!*
 
 
