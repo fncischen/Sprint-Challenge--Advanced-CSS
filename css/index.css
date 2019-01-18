@@ -243,6 +243,12 @@ footer {
   border-radius: 20px;
   height: 100%;
 }
+@media (max-width: 500px) {
+  .home .intro img {
+    height: auto;
+    width: 100%;
+  }
+}
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
@@ -291,7 +297,7 @@ footer {
     flex-wrap: wrap;
     flex-direction: column;
     justify-items: center;
-    padding: 15px;
+    padding: 5px;
   }
 }
 .home .walk .walk-text {
@@ -336,7 +342,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-text {
     order: 1;
-    width: 100%;
+    width: 95%;
     margin-top: 5%;
     margin-left: 4%;
   }
@@ -349,10 +355,16 @@ footer {
   .home .walk .walk-img {
     width: 100%;
     order: 0;
+    margin-right: 4%;
   }
 }
 .home .walk .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-img img {
+    width: 95%;
+  }
 }

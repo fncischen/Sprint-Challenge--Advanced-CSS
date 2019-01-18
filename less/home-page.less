@@ -32,6 +32,11 @@
     img {
       border-radius: 20px;
       height: 100%;
+
+      @media @phone {
+        height: auto;
+        width: 100%;
+      }
     }
   }
 
@@ -86,7 +91,7 @@
 
     @media @phone {
       .flexbox-column();
-      padding: 15px;
+      padding: 5px;
     }
 
     .walk-text {
@@ -109,7 +114,7 @@
 
       @media @phone {
         order: 1;
-        width: 100%;
+        width: 95%;
 
         margin-top: 5%;
         margin-left: 4%;
@@ -120,16 +125,21 @@
     .walk-img {
       width: 46%;
       margin-left: 4%;
+      
 
       @media @phone {
         width: 100%;
         order: 0;
+        margin-right: 4%;
       }
       
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
+        @media @phone {
+          width: 95%;
+        }
       }
     }
 
