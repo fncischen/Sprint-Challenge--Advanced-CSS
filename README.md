@@ -34,13 +34,34 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+*Adapative websites provide different fixed static layouts of a website based on different fixed parameters (i.e. min / max screen width).
+Whereas a fully responsive website allows for fluid design - meaning, you can make real time adjustments to a browser size, 
+and the browser will respond by providing real time changes to how the content is laid out.*
+
 2. Describe what it means to be mobile first vs desktop first.
+
+*Mobile first means to orient your Internet business / website around mobile devices, where as desktop first means
+orienting your website design around desktop computing / devices.*
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+*Setting the font size to 62.5% means setting the base browser font size from its default value to 62.5% of its default value. 
+For rem units, it means that the base rem unit (1 rem) has been reduced to 62.5% of its original value.*
+
+*Speaking concretely, if the base browser font size is 16 pixels, 62.5% of 16 is 10 pixels. 1 rem has changed from 16 pixels to 10 pixels.
+Which means, any child element/class/id will have a different base font size, and the rem will be adjusted accordingly.*
+
 4. How would you describe preprocessing to someone new to CSS?
 
+*Preprocessing is another user-friendly way of organizing your Style Sheets for your HTML browser / elements.
+I think of it as a notepad to sketch your ideas in a clear, organized fashion, which then is sent to a compiler - which acts like a translator to translate your 
+ideas using the Less.JS language - to return a official CSS.file that will render each specific HTML browsesr element/class/id correctly.*  
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+*I like how Preprocessing is a very modular means of designing user interfaces - it's very clean, and easy to debug / isolate problems. 
+The syntax does take some time to get used to, compared to regular CSS!*
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

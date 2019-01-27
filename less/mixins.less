@@ -1,1 +1,35 @@
 // Mixins Here
+
+.flexbox-column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.flexbox-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.btn-mxn(@width, @padding, @bg-color, @hover-color) {
+    width: @width; 
+    background-color: @bg-color; 
+    color: white;
+    font-size: 2em;
+    border: 1px solid black;
+
+    border-radius: 10px;
+    padding: @padding;
+    text-align: center;
+
+    &:hover {
+        background-color: @hover-color;
+        color: black;
+
+    }
+    
+}
+
